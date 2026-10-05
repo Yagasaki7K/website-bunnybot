@@ -1,7 +1,7 @@
 <div align="center">
   <img src="public/hinata.png" width="400"/>
 
-  <h1>Bunnybot Studio - Your character, as a little bot.</h1>
+  <h1>Bunnybot Studio - Your character, as a cute wallpaper.</h1>
 </div>
 
 Bunnybot Studio is a small creative web project focused on transforming characters and people from reference images into minimalist 2D bot-style icons.
