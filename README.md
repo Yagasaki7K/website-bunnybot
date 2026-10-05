@@ -1,16 +1,16 @@
 <div align="center">
   <img src="public/blonde-2.png" width="400"/>
 
-  <h1>Chibot Studio - Your character, as a little bot.</h1>
+  <h1>Bunnybot Studio - Your character, as a little bot.</h1>
 </div>
 
-Chibot Studio is a small creative web project focused on transforming characters and people from reference images into minimalist 2D bot-style icons.
+Bunnybot Studio is a small creative web project focused on transforming characters and people from reference images into minimalist 2D bot-style icons.
 
 The project provides carefully structured prompts designed to preserve the most recognizable visual characteristics of the original subject while applying a consistent bot aesthetic: a rounded face, minimalist features, dark capsule-shaped eyes, simplified hair, and a dark background.
 
-**Live website:** [chibotstudio.vercel.app](https://chibotstudio.vercel.app/)
+**Live website:** [bunnybotstudio.vercel.app](https://bunnybotstudio.vercel.app/)
 
-**Repository:** [Yagasaki7K/website-chibot](https://github.com/Yagasaki7K/website-chibot)
+**Repository:** [Yagasaki7K/website-bunnybot](https://github.com/Yagasaki7K/website-bunnybot)
 
 ## Features
 
@@ -31,7 +31,7 @@ The project provides carefully structured prompts designed to preserve the most 
 * Responsive interface
 * Styled Components integration with Next.js
 
-## The Chibot Style
+## The Bunnybot Style
 
 The prompts are designed around a specific visual language rather than simply asking an image model to "make a character into a bot."
 
@@ -89,7 +89,7 @@ The selected image is displayed as the main preview while the smaller images act
 
 Both prompt buttons use the browser Clipboard API.
 
-When a prompt is successfully copied, Chibot Studio displays a localized success notification.
+When a prompt is successfully copied, Bunnybot Studio displays a localized success notification.
 
 If the browser cannot access the clipboard, a localized error notification is displayed instead.
 
@@ -169,9 +169,9 @@ Make sure you have:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Yagasaki7K/website-chibot.git
+git clone https://github.com/Yagasaki7K/website-Bunnybot.git
 
-cd website-chibot
+cd website-Bunnybot
 ```
 
 ### Install dependencies
@@ -231,7 +231,7 @@ When adding a new language, make sure all interface strings and both prompt vers
 
 ## Issues
 
-If you find a bug or have an idea for improving Chibot Studio, open an issue in the repository.
+If you find a bug or have an idea for improving Bunnybot Studio, open an issue in the repository.
 
 Please include:
 
