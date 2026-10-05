@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/blonde-2.png" width="400"/>
+  <img src="public/hinata.png" width="400"/>
 
   <h1>Bunnybot Studio - Your character, as a little bot.</h1>
 </div>
