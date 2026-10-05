@@ -1,0 +1,40 @@
+{
+    "name": "chibot-studio",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "vercel": "next build",
+        "start": "next start",
+        "lint": "eslint",
+        "next:update": "bun add next@latest react@latest react-dom@latest eslint-config-next@latest",
+        "commit": "git pull && bun update && bun getSecurity.ts && bun run vercel && read -p 'Descriptions\n Commit: ' message && git add . && echo -n \"$message - \" && node getTime.js | xargs -I {} git commit -m \"$message - {}\" && git push",
+        "clean": "rm -rf node_modules && bun install"
+    },
+    "dependencies": {
+        "lucide-react": "^1.52.0",
+        "next": "^16.3.8",
+        "next-seo": "^7.3.0",
+        "react": "^19.3.0",
+        "react-dom": "^19.3.0",
+        "sonner": "^2.0.8",
+        "styled-components": "^6.5.3",
+        "supabase": "^2.119.0"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.4",
+        "@types/react": "^19.3.0",
+        "@types/react-dom": "^19.3.0",
+        "eslint": "^10.12.0",
+        "eslint-config-next": "^16.3.8",
+        "typescript": "^7.0.2"
+    },
+    "ignoreScripts": [
+        "sharp",
+        "unrs-resolver"
+    ],
+    "trustedDependencies": [
+        "sharp",
+        "unrs-resolver"
+    ]
+}
