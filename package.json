@@ -12,7 +12,7 @@
         "clean": "rm -rf node_modules && bun install"
     },
     "dependencies": {
-        "lucide-react": "^1.53.0",
+        "lucide-react": "^1.54.0",
         "nano": "^11.0.7",
         "next": "^16.4.0",
         "next-seo": "^7.3.0",
