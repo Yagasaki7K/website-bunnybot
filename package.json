@@ -12,7 +12,7 @@
         "clean": "rm -rf node_modules && bun install"
     },
     "dependencies": {
-        "lucide-react": "^1.80.0",
+        "lucide-react": "^1.81.0",
         "nano": "^11.0.8",
         "next": "^16.4.6",
         "next-seo": "^7.3.0",
@@ -23,7 +23,7 @@
         "supabase": "^2.122.1"
     },
     "devDependencies": {
-        "@types/node": "^26.6.10",
+        "@types/node": "^26.6.11",
         "@types/react": "^19.3.3",
         "@types/react-dom": "^19.3.0",
         "eslint": "^10.15.0",
